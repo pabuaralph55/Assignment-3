@@ -52,13 +52,12 @@ function playRound(playerSelection, computerSelection){
 }
 
 function game(){
-    alert('This is Rock, Paper & Scissors Game!')
+    alert('Let\'s play the rock, paper, scissors game!')
     for (let i = 0; i < 5; i++) {
         playerSelection = humanPlayerSelection();
         computerSelection = computerPlay();
 
         console.log(playRound(playerSelection, computerSelection));
-
         console.log(`Round${i + 1}: You = ${playerScore} vs Computer = ${computerScore}`)   
     }
 
