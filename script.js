@@ -52,14 +52,14 @@ function playRound(playerSelection, computerSelection){
 }
 
 function game(){
-    alert('This is Rock, Paper or Scissors Game!')
+    alert('This is Rock, Paper & Scissors Game!')
     for (let i = 0; i < 5; i++) {
         playerSelection = humanPlayerSelection();
         computerSelection = computerPlay();
 
         console.log(playRound(playerSelection, computerSelection));
 
-        console.log(`Round${i + 1}: Player = ${playerScore} vs Computer = ${computerScore}`)   
+        console.log(`Round${i + 1}: You = ${playerScore} vs Computer = ${computerScore}`)   
     }
 
     if(playerScore > computerScore){
