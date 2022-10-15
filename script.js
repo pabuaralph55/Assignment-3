@@ -52,7 +52,7 @@ function playRound(playerSelection, computerSelection){
 }
 
 function game(){
-    alert('Let\'s play the rock, paper, scissors game!')
+    alert('This is rock, paper, scissors game!')
     for (let i = 0; i < 5; i++) {
         playerSelection = humanPlayerSelection();
         computerSelection = computerPlay();
